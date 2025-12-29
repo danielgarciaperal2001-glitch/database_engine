@@ -56,37 +56,6 @@ CREATE TABLE users
 INSERT INTO users
 SELECT * FROM users WHERE id = 1
 
-🛠️ Funcionalidades implementadas
-
-    ✅ CREATE TABLE con schema (INT, TEXT fijo)
-
-    ✅ INSERT con persistencia binaria
-
-    ✅ SELECT WHERE (búsqueda lineal)
-
-    ✅ Catálogo de metadatos en catalog.db
-
-    ✅ Páginas fijas (4KB) anti-fragmentación
-
-    ✅ Parsing robusto (trim, case-insensitive)
-
-    ✅ Gestión memoria 100% sin leaks
-
-    ✅ CLI profesional con emojis 😎
-
-🔮 Roadmap futuro
-
-    Índices B-tree para queries O(log n)
-
-    JOINs simples
-
-    Transacciones ACID básicas
-
-    Tipos REAL/FLOAT
-
-    Socket server TCP
-
-    Python client para datos energéticos
 
 📊 Benchmarks
 Operación	1K rows	10K rows	100K rows
